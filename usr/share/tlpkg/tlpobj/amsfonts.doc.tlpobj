@@ -1,0 +1,15 @@
+name amsfonts.doc
+category Package
+revision 29208
+shortdesc doc files of amsfonts
+relocated 1
+docfiles size=321
+ RELOC/doc/fonts/amsfonts/OFL-FAQ.txt
+ RELOC/doc/fonts/amsfonts/OFL.txt
+ RELOC/doc/fonts/amsfonts/README
+ RELOC/doc/fonts/amsfonts/amsfndoc.pdf
+ RELOC/doc/fonts/amsfonts/amsfonts.pdf
+ RELOC/doc/fonts/amsfonts/amssymb.pdf
+ RELOC/doc/fonts/amsfonts/cmmib57.pdf
+ RELOC/doc/fonts/amsfonts/eufrak.pdf
+ RELOC/doc/fonts/amsfonts/euscript.pdf

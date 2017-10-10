@@ -1,0 +1,7 @@
+name gsftopk.doc
+category TLCore
+revision 44166
+shortdesc doc files of gsftopk
+docfiles size=5
+ texmf-dist/doc/man/man1/gsftopk.1
+ texmf-dist/doc/man/man1/gsftopk.man1.pdf

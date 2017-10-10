@@ -1,0 +1,33 @@
+name dvipdfmx
+category TLCore
+revision 44224
+shortdesc An extended version of dvipdfm
+longdesc Dvipdfmx (formerly dvipdfm-cjk) is a development of dvipdfm
+longdesc created to support multi-byte character encodings and large
+longdesc character sets for East Asian languages. Dvipdfmx, if "called"
+longdesc with the name dvipdfm, operates in a "dvipdfm compatibility"
+longdesc mode, so that users of the both packages need only keep one
+longdesc executable. A secondary design goal is to support as many "PDF"
+longdesc features as does pdfTeX. There being no documentation as such,
+longdesc users are advised to consult the documentation of dvipdfm (as
+longdesc well, of course, as the package Readme. The current version of
+longdesc the package is no longer maintained on CTAN as a separate
+longdesc entity; development now takes place within the TeX Live
+longdesc framework, and it is no longer available as a separate package.
+longdesc For download, support, and other information, please see TeX
+longdesc Live.
+depend glyphlist
+depend dvipdfmx.ARCH
+postaction script file=tlpkg/tlpostcode/dvipdfmx.pl
+runfiles size=40
+ texmf-dist/dvipdfmx/dvipdfmx.cfg
+ texmf-dist/fonts/cmap/dvipdfmx/EUC-UCS2
+ texmf-dist/fonts/cmap/dvipdfmx/README
+ texmf-dist/fonts/cmap/dvipdfmx/UTF8-UCS2
+ texmf-dist/fonts/map/dvipdfmx/cid-x.map
+ texmf-dist/fonts/map/dvipdfmx/ckx.map
+ tlpkg/tlpostcode/dvipdfmx.pl
+catalogue-ctan /obsolete/dviware/dvipdfmx
+catalogue-date 2017-04-18 05:31:40 +0200
+catalogue-license gpl
+catalogue-topics dvi-pdf

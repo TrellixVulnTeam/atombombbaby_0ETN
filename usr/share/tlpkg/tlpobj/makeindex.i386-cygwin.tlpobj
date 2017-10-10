@@ -1,0 +1,7 @@
+name makeindex.i386-cygwin
+category Package
+revision 43808
+shortdesc i386-cygwin files of makeindex
+binfiles arch=i386-cygwin size=21
+ bin/i386-cygwin/makeindex.exe
+ bin/i386-cygwin/mkindex

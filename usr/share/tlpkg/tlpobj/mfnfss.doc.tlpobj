@@ -1,0 +1,10 @@
+name mfnfss.doc
+category Package
+revision 19410
+shortdesc doc files of mfnfss
+relocated 1
+docfiles size=51
+ RELOC/doc/latex/mfnfss/changes.txt
+ RELOC/doc/latex/mfnfss/manifest.txt
+ RELOC/doc/latex/mfnfss/oldgerm.pdf
+ RELOC/doc/latex/mfnfss/readme.txt

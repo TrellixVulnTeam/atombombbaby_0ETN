@@ -1,0 +1,11 @@
+#!/bin/sh
+
+prefix=/usr
+datarootdir=/usr/share
+datadir=/usr/share
+codegendir=${datadir}/pygobject/2.0/codegen
+
+PYTHONPATH=$codegendir
+export PYTHONPATH
+
+exec /usr/bin/python2.7 $codegendir/codegen.py "$@"

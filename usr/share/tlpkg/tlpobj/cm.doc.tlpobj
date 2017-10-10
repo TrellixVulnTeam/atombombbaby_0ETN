@@ -1,0 +1,8 @@
+name cm.doc
+category Package
+revision 42428
+shortdesc doc files of cm
+relocated 1
+docfiles size=2
+ RELOC/doc/fonts/cm/README
+ RELOC/doc/fonts/cm/README-cmps.txt

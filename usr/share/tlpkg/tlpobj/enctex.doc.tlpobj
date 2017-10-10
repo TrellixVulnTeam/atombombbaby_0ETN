@@ -1,0 +1,20 @@
+name enctex.doc
+category Package
+revision 34957
+shortdesc doc files of enctex
+relocated 1
+docfiles size=108
+ RELOC/doc/generic/enctex/COPYING
+ RELOC/doc/generic/enctex/COPYING.UCD
+ RELOC/doc/generic/enctex/INSTALL
+ RELOC/doc/generic/enctex/INSTALL.eng
+ RELOC/doc/generic/enctex/README
+ RELOC/doc/generic/enctex/changes.txt
+ RELOC/doc/generic/enctex/encdoc-e.pdf
+ RELOC/doc/generic/enctex/encdoc-e.tex
+ RELOC/doc/generic/enctex/encdoc.pdf
+ RELOC/doc/generic/enctex/encdoc.tex
+ RELOC/doc/generic/enctex/math-example.tex
+ RELOC/doc/generic/enctex/unimap.diff
+ RELOC/doc/generic/enctex/unimap.py
+ RELOC/doc/generic/enctex/vlna.tex

@@ -1,0 +1,8 @@
+name ifxetex.doc
+category Package
+revision 19685
+shortdesc doc files of ifxetex
+relocated 1
+docfiles size=42
+ RELOC/doc/generic/ifxetex/README
+ RELOC/doc/generic/ifxetex/ifxetex.pdf

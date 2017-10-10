@@ -1,0 +1,6 @@
+name gsftopk.x86_64-cygwin
+category TLCore
+revision 43808
+shortdesc x86_64-cygwin files of gsftopk
+binfiles arch=x86_64-cygwin size=7
+ bin/x86_64-cygwin/gsftopk.exe

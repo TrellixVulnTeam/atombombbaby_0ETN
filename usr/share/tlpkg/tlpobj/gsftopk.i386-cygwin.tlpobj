@@ -1,0 +1,6 @@
+name gsftopk.i386-cygwin
+category TLCore
+revision 43808
+shortdesc i386-cygwin files of gsftopk
+binfiles arch=i386-cygwin size=7
+ bin/i386-cygwin/gsftopk.exe

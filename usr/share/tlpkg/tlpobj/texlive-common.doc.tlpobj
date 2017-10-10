@@ -1,0 +1,21 @@
+name texlive-common.doc
+category TLCore
+revision 44191
+shortdesc doc files of texlive-common
+relocated 1
+docfiles size=69
+ RELOC/doc/texlive/index.html
+ RELOC/doc/texlive/texlive-common/examples/ex5.tex
+ RELOC/doc/texlive/texlive-common/examples/ex6.tex
+ RELOC/doc/texlive/texlive-common/examples/ex6a.tex
+ RELOC/doc/texlive/texlive-common/examples/ex6b.tex
+ RELOC/doc/texlive/texlive-common/examples/ex6c.tex
+ RELOC/doc/texlive/texlive-common/install-lnx-main.png
+ RELOC/doc/texlive/texlive-common/nsis_installer.png
+ RELOC/doc/texlive/texlive-common/psview.png
+ RELOC/doc/texlive/texlive-common/stdcoll.png
+ RELOC/doc/texlive/texlive-common/tlmgr-general-options.png
+ RELOC/doc/texlive/texlive-common/tlmgr-gui.png
+ RELOC/doc/texlive/texlive-common/tlmgr-paper-options.png
+ RELOC/doc/texlive/texlive-common/tray-menu.png
+ RELOC/doc/texlive/texlive-common/wizard-w32.png

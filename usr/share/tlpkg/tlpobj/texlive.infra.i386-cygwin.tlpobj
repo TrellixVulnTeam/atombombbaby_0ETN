@@ -1,0 +1,8 @@
+name texlive.infra.i386-cygwin
+category TLCore
+revision 43808
+shortdesc i386-cygwin files of texlive.infra
+binfiles arch=i386-cygwin size=74
+ bin/i386-cygwin/tlmgr
+ tlpkg/installer/xz/xz.i386-cygwin.exe
+ tlpkg/installer/xz/xzdec.i386-cygwin.exe

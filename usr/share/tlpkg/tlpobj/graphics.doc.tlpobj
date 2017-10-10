@@ -1,0 +1,22 @@
+name graphics.doc
+category Package
+revision 43813
+shortdesc doc files of graphics
+relocated 1
+docfiles size=621
+ RELOC/doc/latex/graphics/README.txt
+ RELOC/doc/latex/graphics/cat.eps
+ RELOC/doc/latex/graphics/changes.txt
+ RELOC/doc/latex/graphics/color.pdf
+ RELOC/doc/latex/graphics/drivers.pdf
+ RELOC/doc/latex/graphics/epsfig.pdf
+ RELOC/doc/latex/graphics/graphics.pdf
+ RELOC/doc/latex/graphics/graphicx.pdf
+ RELOC/doc/latex/graphics/grfguide.pdf
+ RELOC/doc/latex/graphics/grfguide.tex
+ RELOC/doc/latex/graphics/keyval.pdf
+ RELOC/doc/latex/graphics/lscape.pdf
+ RELOC/doc/latex/graphics/rotating.pdf
+ RELOC/doc/latex/graphics/rotex.pdf
+ RELOC/doc/latex/graphics/rotex.tex
+ RELOC/doc/latex/graphics/trig.pdf

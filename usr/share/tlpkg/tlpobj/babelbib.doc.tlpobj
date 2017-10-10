@@ -1,0 +1,16 @@
+name babelbib.doc
+category Package
+revision 25245
+shortdesc doc files of babelbib
+relocated 1
+docfiles size=423
+ RELOC/doc/bibtex/babelbib/ChangeLog
+ RELOC/doc/bibtex/babelbib/Makefile
+ RELOC/doc/bibtex/babelbib/README
+ RELOC/doc/bibtex/babelbib/babelbib.dtx
+ RELOC/doc/bibtex/babelbib/babelbib.ins
+ RELOC/doc/bibtex/babelbib/babelbib.pdf
+ RELOC/doc/bibtex/babelbib/babelbibtest.bib
+ RELOC/doc/bibtex/babelbib/babelbibtest.tex
+ RELOC/doc/bibtex/babelbib/getversion.tex
+ RELOC/doc/bibtex/babelbib/tugboat-babelbib.pdf

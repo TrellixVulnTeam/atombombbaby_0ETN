@@ -1,0 +1,172 @@
+/usr/bin/ruby.exe -r ./siteconf20170226-9832-dombgg.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... no
+creating extconf.h
+creating Makefile
+
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 1.2 s in the future
+rm -f 
+rm -f ffi_c.so  *.o  *.bak mkmf.log .*.time
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.9 s in the future
+Configuring libffi
+make -C "/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"
+make[1]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-Wall -fexceptions" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=make" "MAKEINFO=/bin/sh /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "mandir=/usr/local/share/man" "prefix=/usr/local" "AR=ar" "AS=as" "CC=gcc" "CXX=g++" "LD=/usr/i686-pc-cygwin/bin/ld.exe" "NM=/usr/bin/nm -B" "RANLIB=ranlib" "DESTDIR=" all-recursive
+make[2]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+Making all in include
+make[3]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/include'
+Making all in testsuite
+make[3]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/testsuite'
+Making all in man
+make[3]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/man'
+make[3]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/debug.lo /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/debug.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/debug.c  -DDLL_EXPORT -DPIC -o src/.libs/debug.o
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/prep_cif.lo /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/prep_cif.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/prep_cif.c  -DDLL_EXPORT -DPIC -o src/.libs/prep_cif.o
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/types.lo /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/types.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/types.c  -DDLL_EXPORT -DPIC -o src/.libs/types.o
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/raw_api.lo /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/raw_api.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/raw_api.o
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/java_raw_api.lo /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/java_raw_api.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/java_raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/java_raw_api.o
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/closures.lo /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/closures.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/closures.c  -DDLL_EXPORT -DPIC -o src/.libs/closures.o
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/x86/ffi.lo /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/x86/ffi.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/x86/ffi.c  -DDLL_EXPORT -DPIC -o src/x86/.libs/ffi.o
+/bin/sh ./libtool   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src  -c -o src/x86/win32.lo /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/x86/win32.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -I. -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/include -Iinclude -I/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src -c /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/src/x86/win32.S  -DDLL_EXPORT -DPIC -o src/x86/.libs/win32.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -g  -Wall -fexceptions -version-info `grep -v '^#' /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/libtool-version`  -no-undefined -bindir "/usr/local/bin"  -o libffi.la -rpath /usr/local/lib src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo    src/x86/ffi.lo src/x86/win32.lo                        
+libtool: link: gcc -shared  src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/win32.o      -o .libs/cygffi-5.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libffi.dll.a
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && ln -s "../libffi.la" "libffi.la" )
+/bin/sh ./libtool --tag=CC   --mode=link gcc -g  -Wall -fexceptions   -o libffi_convenience.la  src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo    src/x86/ffi.lo src/x86/win32.lo                        
+libtool: link: rm -fr  .libs/libffi_convenience.a(D)
+libtool: link: ar cru .libs/libffi_convenience.a src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/win32.o 
+libtool: link: ranlib .libs/libffi_convenience.a
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && ln -s "../libffi_convenience.la" "libffi_convenience.la" )
+make[3]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+make[2]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+make[1]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o AbstractMemory.o -c AbstractMemory.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o ArrayType.o -c ArrayType.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Buffer.o -c Buffer.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Call.o -c Call.c
+In file included from Call.h:36:0,
+                 from Function.h:48,
+                 from Call.c:57:
+Call.c: In function ‘rbffi_do_blocking_call’:
+Thread.h:78:39: warning: implicit declaration of function ‘rb_thread_call_without_gvl’ [-Wimplicit-function-declaration]
+ # define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                       ^
+Call.c:355:5: note: in expansion of macro ‘rbffi_thread_blocking_region’
+     rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+     ^
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o ClosurePool.o -c ClosurePool.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o DataConverter.o -c DataConverter.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o DynamicLibrary.o -c DynamicLibrary.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Function.o -c Function.c
+Function.c: In function ‘async_cb_event’:
+Function.c:563:9: warning: implicit declaration of function ‘rb_thread_call_without_gvl’ [-Wimplicit-function-declaration]
+         rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+         ^
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o FunctionInfo.o -c FunctionInfo.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o LastError.o -c LastError.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o LongDouble.o -c LongDouble.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o MappedType.o -c MappedType.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o MemoryPointer.o -c MemoryPointer.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o MethodHandle.o -c MethodHandle.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Platform.o -c Platform.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Pointer.o -c Pointer.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Struct.o -c Struct.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o StructByReference.o -c StructByReference.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o StructByValue.o -c StructByValue.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o StructLayout.o -c StructLayout.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Thread.o -c Thread.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Type.o -c Type.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Types.o -c Types.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Variadic.o -c Variadic.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o ffi.o -c ffi.c
+rm -f ffi_c.so
+gcc -shared -o ffi_c.so AbstractMemory.o ArrayType.o Buffer.o Call.o ClosurePool.o DataConverter.o DynamicLibrary.o Function.o FunctionInfo.o LastError.o LongDouble.o MappedType.o MemoryPointer.o MethodHandle.o Platform.o Pointer.o Struct.o StructByReference.o StructByValue.o StructLayout.o Thread.o Type.o Types.o Variadic.o ffi.o -L. -L/usr/lib -L. -fstack-protector -Wl,--export-all-symbols -Wl,--enable-auto-image-base,--enable-auto-import    "/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/.libs/libffi_convenience.a -lruby220  -lpthread -lgmp -ldl -lcrypt  
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+make "DESTDIR=" install
+make -C "/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"
+make[1]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-Wall -fexceptions" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=make" "MAKEINFO=/bin/sh /home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "mandir=/usr/local/share/man" "prefix=/usr/local" "AR=ar" "AS=as" "CC=gcc" "CXX=g++" "LD=/usr/i686-pc-cygwin/bin/ld.exe" "NM=/usr/bin/nm -B" "RANLIB=ranlib" "DESTDIR=" all-recursive
+make[2]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+Making all in include
+make[3]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/include'
+Making all in testsuite
+make[3]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/testsuite'
+Making all in man
+make[3]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin/man'
+make[3]: Entering directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+make[2]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+make[1]: Leaving directory '/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin'
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o AbstractMemory.o -c AbstractMemory.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o ArrayType.o -c ArrayType.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Buffer.o -c Buffer.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Call.o -c Call.c
+In file included from Call.h:36:0,
+                 from Function.h:48,
+                 from Call.c:57:
+Call.c: In function ‘rbffi_do_blocking_call’:
+Thread.h:78:39: warning: implicit declaration of function ‘rb_thread_call_without_gvl’ [-Wimplicit-function-declaration]
+ # define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                       ^
+Call.c:355:5: note: in expansion of macro ‘rbffi_thread_blocking_region’
+     rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+     ^
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o ClosurePool.o -c ClosurePool.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o DataConverter.o -c DataConverter.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o DynamicLibrary.o -c DynamicLibrary.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Function.o -c Function.c
+Function.c: In function ‘async_cb_event’:
+Function.c:563:9: warning: implicit declaration of function ‘rb_thread_call_without_gvl’ [-Wimplicit-function-declaration]
+         rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+         ^
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o FunctionInfo.o -c FunctionInfo.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o LastError.o -c LastError.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o LongDouble.o -c LongDouble.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o MappedType.o -c MappedType.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o MemoryPointer.o -c MemoryPointer.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o MethodHandle.o -c MethodHandle.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Platform.o -c Platform.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Pointer.o -c Pointer.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Struct.o -c Struct.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o StructByReference.o -c StructByReference.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o StructByValue.o -c StructByValue.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o StructLayout.o -c StructLayout.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Thread.o -c Thread.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Type.o -c Type.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Types.o -c Types.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o Variadic.o -c Variadic.c
+gcc -I. -I/usr/include/ruby-2.2.0 -I/usr/include/ruby-2.2.0/ruby/backward -I/usr/include/ruby-2.2.0 -I. -I"/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/include -DRUBY_EXTCONF_H=\"extconf.h\"     -ggdb -O2 -pipe -Wimplicit-function-declaration    -o ffi.o -c ffi.c
+rm -f ffi_c.so
+gcc -shared -o ffi_c.so AbstractMemory.o ArrayType.o Buffer.o Call.o ClosurePool.o DataConverter.o DynamicLibrary.o Function.o FunctionInfo.o LastError.o LongDouble.o MappedType.o MemoryPointer.o MethodHandle.o Platform.o Pointer.o Struct.o StructByReference.o StructByValue.o StructLayout.o Thread.o Type.o Types.o Variadic.o ffi.o -L. -L/usr/lib -L. -fstack-protector -Wl,--export-all-symbols -Wl,--enable-auto-image-base,--enable-auto-import    "/home/atombombbaby/.gem/ruby/gems/ffi-1.9.17/ext/ffi_c/libffi-i386-cygwin"/.libs/libffi_convenience.a -lruby220  -lpthread -lgmp -ldl -lcrypt  
+/usr/bin/mkdir -p . ./.gem.20170226-9832-d2jvic
+exit > .RUBYARCHDIR.time
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20170226-9832-d2jvic

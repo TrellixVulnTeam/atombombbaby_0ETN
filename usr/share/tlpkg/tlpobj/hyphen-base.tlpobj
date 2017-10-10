@@ -1,0 +1,15 @@
+name hyphen-base
+category TLCore
+revision 44419
+relocated 1
+runfiles size=24
+ RELOC/tex/generic/config/language.dat
+ RELOC/tex/generic/config/language.dat.lua
+ RELOC/tex/generic/config/language.def
+ RELOC/tex/generic/config/language.us
+ RELOC/tex/generic/config/language.us.def
+ RELOC/tex/generic/config/language.us.lua
+ RELOC/tex/generic/hyphen/dumyhyph.tex
+ RELOC/tex/generic/hyphen/hyphen.tex
+ RELOC/tex/generic/hyphen/hypht1.tex
+ RELOC/tex/generic/hyphen/zerohyph.tex

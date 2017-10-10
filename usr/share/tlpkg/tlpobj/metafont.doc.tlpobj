@@ -1,0 +1,11 @@
+name metafont.doc
+category Package
+revision 44166
+shortdesc doc files of metafont
+docfiles size=21
+ texmf-dist/doc/man/man1/inimf.1
+ texmf-dist/doc/man/man1/inimf.man1.pdf
+ texmf-dist/doc/man/man1/mf-nowin.1
+ texmf-dist/doc/man/man1/mf-nowin.man1.pdf
+ texmf-dist/doc/man/man1/mf.1
+ texmf-dist/doc/man/man1/mf.man1.pdf

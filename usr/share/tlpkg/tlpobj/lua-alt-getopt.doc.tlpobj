@@ -1,0 +1,13 @@
+name lua-alt-getopt.doc
+category Package
+revision 29349
+shortdesc doc files of lua-alt-getopt
+relocated 1
+docfiles size=7
+ RELOC/doc/support/lua-alt-getopt/ChangeLog
+ RELOC/doc/support/lua-alt-getopt/Makefile
+ RELOC/doc/support/lua-alt-getopt/NEWS
+ RELOC/doc/support/lua-alt-getopt/README
+ RELOC/doc/support/lua-alt-getopt/alt_getopt
+ RELOC/doc/support/lua-alt-getopt/tests/test.out
+ RELOC/doc/support/lua-alt-getopt/tests/test.sh

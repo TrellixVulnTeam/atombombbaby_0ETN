@@ -1,0 +1,25 @@
+name amsmath.doc
+category Package
+revision 43813
+shortdesc doc files of amsmath
+relocated 1
+docfiles size=638
+ RELOC/doc/latex/amsmath/README.txt
+ RELOC/doc/latex/amsmath/amsbsy.pdf
+ RELOC/doc/latex/amsmath/amscd.pdf
+ RELOC/doc/latex/amsmath/amsgen.pdf
+ RELOC/doc/latex/amsmath/amsldoc.pdf
+ RELOC/doc/latex/amsmath/amsldoc.tex
+ RELOC/doc/latex/amsmath/amsmath.pdf
+ RELOC/doc/latex/amsmath/amsopn.pdf
+ RELOC/doc/latex/amsmath/amstext.pdf
+ RELOC/doc/latex/amsmath/amsxtra.pdf
+ RELOC/doc/latex/amsmath/changes.txt
+ RELOC/doc/latex/amsmath/diffs-m.txt
+ RELOC/doc/latex/amsmath/manifest.txt
+ RELOC/doc/latex/amsmath/subeqn.pdf
+ RELOC/doc/latex/amsmath/subeqn.tex
+ RELOC/doc/latex/amsmath/technote.pdf
+ RELOC/doc/latex/amsmath/technote.tex
+ RELOC/doc/latex/amsmath/testmath.pdf
+ RELOC/doc/latex/amsmath/testmath.tex

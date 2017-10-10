@@ -1,0 +1,15 @@
+name latexconfig
+category Package
+revision 40274
+relocated 1
+runfiles size=10
+ RELOC/tex/latex/latexconfig/epstopdf-sys.cfg
+ RELOC/tex/latex/latexconfig/hyperref.cfg
+ RELOC/tex/latex/latexconfig/latex.ini
+ RELOC/tex/latex/latexconfig/lualatex-patch-kernel.tex
+ RELOC/tex/latex/latexconfig/lualatex-reset-codes.tex
+ RELOC/tex/latex/latexconfig/lualatexiniconfig.tex
+ RELOC/tex/latex/latexconfig/lualatexquotejobname.lua
+ RELOC/tex/latex/latexconfig/lualatexquotejobname.tex
+ RELOC/tex/latex/latexconfig/mllatex.ini
+ RELOC/tex/latex/latexconfig/pdflatex.ini

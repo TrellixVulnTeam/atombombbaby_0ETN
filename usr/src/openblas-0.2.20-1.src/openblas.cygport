@@ -1,0 +1,57 @@
+NAME="openblas"
+VERSION=0.2.20
+RELEASE=1
+
+CATEGORY="Math"
+DESCRIPTION="OpenBLAS is an optimized BLAS library based on GotoBLAS2"
+SUMMARY="OpenBLAS is an optimized BLAS library"
+HOMEPAGE="http://xianyi.github.com/OpenBLAS/"
+
+SRC_URI="https://github.com/xianyi/OpenBLAS/archive/v${PV}.tar.gz"
+SRC_DIR="OpenBLAS-${PV}"
+
+# PKG_NAMES="openblas libopenblas libopenblas-devel"
+PKG_NAMES="openblas libopenblas"
+
+openblas_SUMMARY="OpenBLAS is an optimized BLAS library (source only)"
+openblas_CONTENTS=""
+
+libopenb_SUMMARY="OpenBLAS is an optimized BLAS library (dynamic library)"
+libopenblas_CONTENTS="usr/bin/*.dll"
+
+# libopenblas_devel_SUMMARY="OpenBLAS is an optimized BLAS library (development)"
+# libopenblas_devel_CONTENTS="
+#  usr/include/
+#  usr/lib/
+#  usr/share/doc/
+# "
+
+
+src_compile() {
+        cd ${S}
+        lndirs
+        cd ${B}
+        cygmake NO_LAPACK=1 DYNAMIC_ARCH=1 NUM_THREADS=16
+
+ gcc ${CFLAGS} -shared -Wl,--enable-auto-import -Wl,--enable-auto-image-base \
+    -o cygblas-0.dll -Wl,--out-implib=libblas.dll.a \
+    -Wl,--whole-archive exports/dllinit.o  libopenblas.a \
+    -Wl,--no-whole-archive -shared-libgcc -lgfortran
+}
+
+
+src_install() {
+	cd ${B}
+# Installing only dll
+#	cyginstall NO_LAPACK=1 PREFIX=/usr
+#	dodir /usr/include/openblas
+#	mv ${D}/usr/include/*h ${D}/usr/include/openblas
+#	rm ${D}/usr/lib/*
+#	rm ${D}/usr/cmake/OpenBLASConfig.cmake
+#	insinto /usr/lib/openblas
+#	doins ${B}/libblas.dll.a
+#	insinto /usr/lib/
+#	doins ${B}/libblas.dll.a
+	insinto /usr/bin
+	doins ${B}/cygblas-0.dll
+}

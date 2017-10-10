@@ -1,0 +1,6 @@
+name texconfig.i386-cygwin
+category TLCore
+revision 29836
+shortdesc i386-cygwin files of texconfig
+binfiles arch=i386-cygwin size=1
+ bin/i386-cygwin/texconfig

@@ -1,0 +1,6 @@
+name texlive-docindex.doc
+category TLCore
+revision 44435
+shortdesc doc files of texlive-docindex
+docfiles size=224
+ doc.html

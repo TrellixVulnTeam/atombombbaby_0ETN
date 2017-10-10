@@ -1,0 +1,7 @@
+name dvips.i386-cygwin
+category TLCore
+revision 43808
+shortdesc i386-cygwin files of dvips
+binfiles arch=i386-cygwin size=56
+ bin/i386-cygwin/afm2tfm.exe
+ bin/i386-cygwin/dvips.exe

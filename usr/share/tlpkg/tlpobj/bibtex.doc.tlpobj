@@ -1,0 +1,14 @@
+name bibtex.doc
+category Package
+revision 44166
+shortdesc doc files of bibtex
+docfiles size=129
+ texmf-dist/doc/bibtex/base/README
+ texmf-dist/doc/bibtex/base/btxbst.doc
+ texmf-dist/doc/bibtex/base/btxdoc.bib
+ texmf-dist/doc/bibtex/base/btxdoc.pdf
+ texmf-dist/doc/bibtex/base/btxdoc.tex
+ texmf-dist/doc/bibtex/base/btxhak.pdf
+ texmf-dist/doc/bibtex/base/btxhak.tex
+ texmf-dist/doc/man/man1/bibtex.1
+ texmf-dist/doc/man/man1/bibtex.man1.pdf

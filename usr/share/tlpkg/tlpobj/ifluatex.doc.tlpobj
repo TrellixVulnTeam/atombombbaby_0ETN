@@ -1,0 +1,10 @@
+name ifluatex.doc
+category Package
+revision 43610
+shortdesc doc files of ifluatex
+relocated 1
+docfiles size=35
+ RELOC/doc/latex/oberdiek/ifluatex.pdf
+ RELOC/doc/latex/oberdiek/test/ifluatex-test1.tex
+ RELOC/doc/latex/oberdiek/test/ifluatex-test2.tex
+ RELOC/doc/latex/oberdiek/test/ifluatex-test3.tex

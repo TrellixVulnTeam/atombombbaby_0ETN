@@ -1,0 +1,7 @@
+name tex.i386-cygwin
+category TLCore
+revision 44123
+shortdesc i386-cygwin files of tex
+binfiles arch=i386-cygwin size=78
+ bin/i386-cygwin/initex
+ bin/i386-cygwin/tex.exe

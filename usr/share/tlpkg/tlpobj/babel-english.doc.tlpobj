@@ -1,0 +1,8 @@
+name babel-english.doc
+category Package
+revision 43042
+shortdesc doc files of babel-english
+relocated 1
+docfiles size=33
+ RELOC/doc/generic/babel-english/README
+ RELOC/doc/generic/babel-english/english.pdf

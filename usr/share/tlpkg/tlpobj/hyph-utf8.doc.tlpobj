@@ -1,0 +1,16 @@
+name hyph-utf8.doc
+category Package
+revision 44401
+shortdesc doc files of hyph-utf8
+relocated 1
+docfiles size=83
+ RELOC/doc/generic/hyph-utf8/CHANGES
+ RELOC/doc/generic/hyph-utf8/HISTORY
+ RELOC/doc/generic/hyph-utf8/hyphenation-distribution.pdf
+ RELOC/doc/generic/hyph-utf8/hyphenation-distribution.tex
+ RELOC/doc/generic/hyph-utf8/hyphenation.pdf
+ RELOC/doc/generic/hyph-utf8/hyphenation.tex
+ RELOC/doc/generic/hyph-utf8/img/miktex-languages.png
+ RELOC/doc/generic/hyph-utf8/img/texlive-collection.png
+ RELOC/doc/luatex/hyph-utf8/README
+ RELOC/doc/luatex/hyph-utf8/luatex-hyphen.pdf

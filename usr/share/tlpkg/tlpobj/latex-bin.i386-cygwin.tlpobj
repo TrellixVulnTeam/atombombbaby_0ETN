@@ -1,0 +1,9 @@
+name latex-bin.i386-cygwin
+category TLCore
+revision 14050
+shortdesc i386-cygwin files of latex-bin
+binfiles arch=i386-cygwin size=4
+ bin/i386-cygwin/dvilualatex
+ bin/i386-cygwin/latex
+ bin/i386-cygwin/lualatex
+ bin/i386-cygwin/pdflatex

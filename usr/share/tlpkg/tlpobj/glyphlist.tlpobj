@@ -1,0 +1,8 @@
+name glyphlist
+category Package
+revision 41545
+relocated 1
+runfiles size=24
+ RELOC/fonts/map/glyphlist/glyphlist.txt
+ RELOC/fonts/map/glyphlist/pdfglyphlist.txt
+ RELOC/fonts/map/glyphlist/texglyphlist.txt

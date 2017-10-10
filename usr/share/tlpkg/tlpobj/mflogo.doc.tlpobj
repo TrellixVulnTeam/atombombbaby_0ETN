@@ -1,0 +1,10 @@
+name mflogo.doc
+category Package
+revision 42428
+shortdesc doc files of mflogo
+relocated 1
+docfiles size=66
+ RELOC/doc/latex/mflogo/CATALOGUE
+ RELOC/doc/latex/mflogo/Makefile
+ RELOC/doc/latex/mflogo/README
+ RELOC/doc/latex/mflogo/mflogo.pdf

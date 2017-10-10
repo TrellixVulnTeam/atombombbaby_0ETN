@@ -1,0 +1,9 @@
+name carlisle.doc
+category Package
+revision 18258
+shortdesc doc files of carlisle
+relocated 1
+docfiles size=9
+ RELOC/doc/latex/carlisle/README
+ RELOC/doc/latex/carlisle/ltx1.tex
+ RELOC/doc/latex/carlisle/ltxtable.pdf

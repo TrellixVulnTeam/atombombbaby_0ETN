@@ -1,0 +1,8 @@
+name metafont.i386-cygwin
+category Package
+revision 44123
+shortdesc i386-cygwin files of metafont
+binfiles arch=i386-cygwin size=140
+ bin/i386-cygwin/inimf
+ bin/i386-cygwin/mf-nowin.exe
+ bin/i386-cygwin/mf.exe

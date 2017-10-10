@@ -1,0 +1,9 @@
+name texconfig.doc
+category TLCore
+revision 44166
+shortdesc doc files of texconfig
+docfiles size=9
+ texmf-dist/doc/man/man1/texconfig-sys.1
+ texmf-dist/doc/man/man1/texconfig-sys.man1.pdf
+ texmf-dist/doc/man/man1/texconfig.1
+ texmf-dist/doc/man/man1/texconfig.man1.pdf

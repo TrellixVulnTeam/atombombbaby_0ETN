@@ -1,0 +1,23 @@
+name tetex.x86_64-cygwin
+category TLCore
+revision 43957
+shortdesc x86_64-cygwin files of tetex
+binfiles arch=x86_64-cygwin size=18
+ bin/x86_64-cygwin/allcm
+ bin/x86_64-cygwin/allec
+ bin/x86_64-cygwin/allneeded
+ bin/x86_64-cygwin/dvi2fax
+ bin/x86_64-cygwin/dvired
+ bin/x86_64-cygwin/fmtutil
+ bin/x86_64-cygwin/fmtutil-sys
+ bin/x86_64-cygwin/fmtutil-user
+ bin/x86_64-cygwin/kpsepath
+ bin/x86_64-cygwin/kpsetool
+ bin/x86_64-cygwin/kpsewhere
+ bin/x86_64-cygwin/kpsexpand
+ bin/x86_64-cygwin/texconfig-dialog
+ bin/x86_64-cygwin/texconfig-sys
+ bin/x86_64-cygwin/texlinks
+ bin/x86_64-cygwin/updmap
+ bin/x86_64-cygwin/updmap-sys
+ bin/x86_64-cygwin/updmap-user

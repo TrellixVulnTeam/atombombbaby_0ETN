@@ -1,0 +1,14 @@
+name luatex.i386-cygwin
+category TLCore
+revision 44362
+shortdesc i386-cygwin files of luatex
+binfiles arch=i386-cygwin size=4476
+ bin/i386-cygwin/cygtexlua52-5.dll
+ bin/i386-cygwin/cygtexluajit-2.dll
+ bin/i386-cygwin/dviluatex
+ bin/i386-cygwin/luajittex.exe
+ bin/i386-cygwin/luatex.exe
+ bin/i386-cygwin/texlua
+ bin/i386-cygwin/texluac
+ bin/i386-cygwin/texluajit
+ bin/i386-cygwin/texluajitc

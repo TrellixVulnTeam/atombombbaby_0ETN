@@ -1,0 +1,12 @@
+name texconfig
+category TLCore
+revision 44166
+depend texconfig.ARCH
+runfiles size=19
+ texmf-dist/scripts/texlive/texconfig.sh
+ texmf-dist/texconfig/README
+ texmf-dist/texconfig/g/generic
+ texmf-dist/texconfig/tcfmgr
+ texmf-dist/texconfig/tcfmgr.map
+ texmf-dist/texconfig/v/vt100
+ texmf-dist/texconfig/x/xterm

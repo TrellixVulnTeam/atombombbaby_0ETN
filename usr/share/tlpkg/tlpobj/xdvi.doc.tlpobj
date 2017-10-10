@@ -1,0 +1,7 @@
+name xdvi.doc
+category TLCore
+revision 44166
+shortdesc doc files of xdvi
+docfiles size=63
+ texmf-dist/doc/man/man1/xdvi.1
+ texmf-dist/doc/man/man1/xdvi.man1.pdf

@@ -1,0 +1,7 @@
+name unicode-data.doc
+category Package
+revision 41521
+shortdesc doc files of unicode-data
+relocated 1
+docfiles size=2
+ RELOC/doc/generic/unicode-data/README.md

@@ -1,0 +1,8 @@
+name pspicture.doc
+category Package
+revision 15878
+shortdesc doc files of pspicture
+relocated 1
+docfiles size=18
+ RELOC/doc/latex/pspicture/README
+ RELOC/doc/latex/pspicture/pspicture.pdf

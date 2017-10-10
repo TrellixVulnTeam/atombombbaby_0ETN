@@ -1,0 +1,10 @@
+name colortbl.doc
+category Package
+revision 29803
+shortdesc doc files of colortbl
+relocated 1
+docfiles size=143
+ RELOC/doc/latex/colortbl/README
+ RELOC/doc/latex/colortbl/colortbl-DE.pdf
+ RELOC/doc/latex/colortbl/colortbl-DE.tex
+ RELOC/doc/latex/colortbl/colortbl.pdf

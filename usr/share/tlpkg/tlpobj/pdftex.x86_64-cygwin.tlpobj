@@ -1,0 +1,9 @@
+name pdftex.x86_64-cygwin
+category TLCore
+revision 44123
+shortdesc x86_64-cygwin files of pdftex
+binfiles arch=x86_64-cygwin size=486
+ bin/x86_64-cygwin/etex
+ bin/x86_64-cygwin/pdfetex
+ bin/x86_64-cygwin/pdftex.exe
+ bin/x86_64-cygwin/simpdftex

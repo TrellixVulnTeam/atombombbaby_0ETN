@@ -1,0 +1,11 @@
+name geometry.doc
+category Package
+revision 19716
+shortdesc doc files of geometry
+relocated 1
+docfiles size=54
+ RELOC/doc/latex/geometry/README
+ RELOC/doc/latex/geometry/changes.txt
+ RELOC/doc/latex/geometry/geometry-samples.tex
+ RELOC/doc/latex/geometry/geometry.cfg
+ RELOC/doc/latex/geometry/geometry.pdf

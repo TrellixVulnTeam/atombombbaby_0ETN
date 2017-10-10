@@ -1,0 +1,7 @@
+name graphics-def.doc
+category Package
+revision 43025
+shortdesc doc files of graphics-def
+relocated 1
+docfiles size=1
+ RELOC/doc/latex/graphics-def/README.md

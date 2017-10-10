@@ -1,0 +1,23 @@
+name tetex.i386-cygwin
+category TLCore
+revision 43957
+shortdesc i386-cygwin files of tetex
+binfiles arch=i386-cygwin size=18
+ bin/i386-cygwin/allcm
+ bin/i386-cygwin/allec
+ bin/i386-cygwin/allneeded
+ bin/i386-cygwin/dvi2fax
+ bin/i386-cygwin/dvired
+ bin/i386-cygwin/fmtutil
+ bin/i386-cygwin/fmtutil-sys
+ bin/i386-cygwin/fmtutil-user
+ bin/i386-cygwin/kpsepath
+ bin/i386-cygwin/kpsetool
+ bin/i386-cygwin/kpsewhere
+ bin/i386-cygwin/kpsexpand
+ bin/i386-cygwin/texconfig-dialog
+ bin/i386-cygwin/texconfig-sys
+ bin/i386-cygwin/texlinks
+ bin/i386-cygwin/updmap
+ bin/i386-cygwin/updmap-sys
+ bin/i386-cygwin/updmap-user

@@ -1,0 +1,7 @@
+name texlive-scripts.i386-cygwin
+category TLCore
+revision 29836
+shortdesc i386-cygwin files of texlive-scripts
+binfiles arch=i386-cygwin size=2
+# bin/i386-cygwin/man
+ bin/i386-cygwin/rungs

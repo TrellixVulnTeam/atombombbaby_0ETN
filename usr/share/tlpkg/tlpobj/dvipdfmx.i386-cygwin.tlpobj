@@ -1,0 +1,10 @@
+name dvipdfmx.i386-cygwin
+category TLCore
+revision 40350
+shortdesc i386-cygwin files of dvipdfmx
+binfiles arch=i386-cygwin size=5
+ bin/i386-cygwin/dvipdfm
+ bin/i386-cygwin/dvipdfmx
+ bin/i386-cygwin/dvipdft
+ bin/i386-cygwin/ebb
+ bin/i386-cygwin/extractbb

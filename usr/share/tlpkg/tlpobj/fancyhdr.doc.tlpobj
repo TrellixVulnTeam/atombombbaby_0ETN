@@ -1,0 +1,9 @@
+name fancyhdr.doc
+category Package
+revision 42004
+shortdesc doc files of fancyhdr
+relocated 1
+docfiles size=112
+ RELOC/doc/latex/fancyhdr/README
+ RELOC/doc/latex/fancyhdr/fancyhdr.pdf
+ RELOC/doc/latex/fancyhdr/fancyhdr.tex

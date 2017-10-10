@@ -1,0 +1,11 @@
+name mfware.i386-cygwin
+category TLCore
+revision 43808
+shortdesc i386-cygwin files of mfware
+binfiles arch=i386-cygwin size=50
+ bin/i386-cygwin/gftodvi.exe
+ bin/i386-cygwin/gftopk.exe
+ bin/i386-cygwin/gftype.exe
+ bin/i386-cygwin/mft.exe
+ bin/i386-cygwin/pktogf.exe
+ bin/i386-cygwin/pktype.exe

@@ -1,0 +1,17 @@
+name mfware.doc
+category TLCore
+revision 44166
+shortdesc doc files of mfware
+docfiles size=19
+ texmf-dist/doc/man/man1/gftodvi.1
+ texmf-dist/doc/man/man1/gftodvi.man1.pdf
+ texmf-dist/doc/man/man1/gftopk.1
+ texmf-dist/doc/man/man1/gftopk.man1.pdf
+ texmf-dist/doc/man/man1/gftype.1
+ texmf-dist/doc/man/man1/gftype.man1.pdf
+ texmf-dist/doc/man/man1/mft.1
+ texmf-dist/doc/man/man1/mft.man1.pdf
+ texmf-dist/doc/man/man1/pktogf.1
+ texmf-dist/doc/man/man1/pktogf.man1.pdf
+ texmf-dist/doc/man/man1/pktype.1
+ texmf-dist/doc/man/man1/pktype.man1.pdf

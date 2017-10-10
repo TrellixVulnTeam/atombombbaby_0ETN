@@ -1,0 +1,12 @@
+name dvips.doc
+category TLCore
+revision 44167
+shortdesc doc files of dvips
+docfiles size=273
+ texmf-dist/doc/dvips/dvips.html
+ texmf-dist/doc/dvips/dvips.pdf
+ texmf-dist/doc/info/dvips.info
+ texmf-dist/doc/man/man1/afm2tfm.1
+ texmf-dist/doc/man/man1/afm2tfm.man1.pdf
+ texmf-dist/doc/man/man1/dvips.1
+ texmf-dist/doc/man/man1/dvips.man1.pdf

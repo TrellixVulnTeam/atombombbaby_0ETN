@@ -1,0 +1,18 @@
+name kpathsea.i386-cygwin
+category TLCore
+revision 43808
+shortdesc i386-cygwin files of kpathsea
+binfiles arch=i386-cygwin size=50
+ bin/i386-cygwin/cygkpathsea-6.dll
+ bin/i386-cygwin/kpseaccess.exe
+ bin/i386-cygwin/kpsereadlink.exe
+ bin/i386-cygwin/kpsestat.exe
+ bin/i386-cygwin/kpsewhich.exe
+ bin/i386-cygwin/mkocp
+ bin/i386-cygwin/mkofm
+ bin/i386-cygwin/mktexfmt
+ bin/i386-cygwin/mktexlsr
+ bin/i386-cygwin/mktexmf
+ bin/i386-cygwin/mktexpk
+ bin/i386-cygwin/mktextfm
+ bin/i386-cygwin/texhash

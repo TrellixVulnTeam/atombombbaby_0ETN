@@ -1,0 +1,15 @@
+name updmap-map
+category Package
+revision 43366
+relocated 1
+runfiles size=3969
+ RELOC/fonts/map/dvipdfmx/updmap/kanjix.map
+ RELOC/fonts/map/dvips/updmap/builtin35.map
+ RELOC/fonts/map/dvips/updmap/download35.map
+ RELOC/fonts/map/dvips/updmap/ps2pk.map
+ RELOC/fonts/map/dvips/updmap/psfonts.map
+ RELOC/fonts/map/dvips/updmap/psfonts_pk.map
+ RELOC/fonts/map/dvips/updmap/psfonts_t1.map
+ RELOC/fonts/map/pdftex/updmap/pdftex.map
+ RELOC/fonts/map/pdftex/updmap/pdftex_dl14.map
+ RELOC/fonts/map/pdftex/updmap/pdftex_ndl14.map

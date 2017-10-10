@@ -1,0 +1,23 @@
+name hyperref.doc
+category Package
+revision 43547
+shortdesc doc files of hyperref
+relocated 1
+docfiles size=1040
+ RELOC/doc/latex/hyperref/ChangeLog
+ RELOC/doc/latex/hyperref/ChangeLog.pdf
+ RELOC/doc/latex/hyperref/README
+ RELOC/doc/latex/hyperref/README.pdf
+ RELOC/doc/latex/hyperref/backref.pdf
+ RELOC/doc/latex/hyperref/cmmi10-22.gif
+ RELOC/doc/latex/hyperref/cmsy10-21.gif
+ RELOC/doc/latex/hyperref/hyperref.pdf
+ RELOC/doc/latex/hyperref/manual.css
+ RELOC/doc/latex/hyperref/manual.html
+ RELOC/doc/latex/hyperref/manual.pdf
+ RELOC/doc/latex/hyperref/manual2.html
+ RELOC/doc/latex/hyperref/manual3.html
+ RELOC/doc/latex/hyperref/nameref.pdf
+ RELOC/doc/latex/hyperref/options.pdf
+ RELOC/doc/latex/hyperref/paper.pdf
+ RELOC/doc/latex/hyperref/slides.pdf

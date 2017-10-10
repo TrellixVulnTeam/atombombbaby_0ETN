@@ -1,0 +1,18 @@
+name latex-bin
+category TLCore
+revision 44166
+shortdesc LaTeX executables and man pages.
+depend latex
+depend babel
+depend cm
+depend hyphen-base
+depend latex-fonts
+depend tex-ini-files
+depend latexconfig
+depend unicode-data
+depend latex-bin.ARCH
+execute AddFormat name=latex engine=pdftex           patterns=language.dat           options="-translate-file=cp227.tcx *latex.ini"           fmttriggers=babel,cm,hyphen-base,latex,latex-fonts,tex-ini-files,latexconfig
+execute AddFormat name=pdflatex engine=pdftex           patterns=language.dat           options="-translate-file=cp227.tcx *pdflatex.ini"           fmttriggers=babel,cm,hyphen-base,latex,latex-fonts,tex-ini-files,latexconfig
+execute AddFormat name=dvilualatex engine=luatex           patterns=language.dat,language.dat.lua           options="dvilualatex.ini"           fmttriggers=babel,cm,hyphen-base,latex,latex-fonts,tex-ini-files,unicode-data
+execute AddFormat name=lualatex engine=luatex           patterns=language.dat,language.dat.lua           options="lualatex.ini"           fmttriggers=babel,cm,hyphen-base,latex,latex-fonts,tex-ini-files,unicode-data
+execute AddFormat name=luajitlatex mode=disabled engine=luajittex           patterns=language.dat,language.dat.lua           options="lualatex.ini"           fmttriggers=babel,cm,hyphen-base,latex,latex-fonts,tex-ini-files,unicode-data

@@ -1,0 +1,6 @@
+name bibtex.i386-cygwin
+category Package
+revision 43808
+shortdesc i386-cygwin files of bibtex
+binfiles arch=i386-cygwin size=27
+ bin/i386-cygwin/bibtex.exe

@@ -1,0 +1,9 @@
+name pdftex.i386-cygwin
+category TLCore
+revision 44123
+shortdesc i386-cygwin files of pdftex
+binfiles arch=i386-cygwin size=479
+ bin/i386-cygwin/etex
+ bin/i386-cygwin/pdfetex
+ bin/i386-cygwin/pdftex.exe
+ bin/i386-cygwin/simpdftex

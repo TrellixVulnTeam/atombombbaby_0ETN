@@ -1,0 +1,12 @@
+name makeindex.doc
+category Package
+revision 44166
+shortdesc doc files of makeindex
+docfiles size=122
+ texmf-dist/doc/man/man1/makeindex.1
+ texmf-dist/doc/man/man1/makeindex.man1.pdf
+ texmf-dist/doc/man/man1/mkindex.1
+ texmf-dist/doc/man/man1/mkindex.man1.pdf
+ texmf-dist/doc/support/makeindex/doc-src.zip
+ texmf-dist/doc/support/makeindex/ind.pdf
+ texmf-dist/doc/support/makeindex/makeindex.pdf

@@ -1,0 +1,9 @@
+name ae.doc
+category Package
+revision 15878
+shortdesc doc files of ae
+relocated 1
+docfiles size=7
+ RELOC/doc/fonts/ae/COPYING
+ RELOC/doc/fonts/ae/MANIFEST
+ RELOC/doc/fonts/ae/README

@@ -1,0 +1,8 @@
+name latex-fonts.doc
+category Package
+revision 28888
+shortdesc doc files of latex-fonts
+relocated 1
+docfiles size=2
+ RELOC/doc/fonts/latex-fonts/README
+ RELOC/doc/fonts/latex-fonts/legal.txt

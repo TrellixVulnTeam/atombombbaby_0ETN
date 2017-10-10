@@ -1,0 +1,6 @@
+name mptopdf.i386-cygwin
+category Package
+revision 18674
+shortdesc i386-cygwin files of mptopdf
+binfiles arch=i386-cygwin size=1
+ bin/i386-cygwin/mptopdf

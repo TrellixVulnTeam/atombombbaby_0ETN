@@ -1,0 +1,11 @@
+name babel.doc
+category Package
+revision 44427
+shortdesc doc files of babel
+relocated 1
+docfiles size=271
+ RELOC/doc/latex/babel/CONTRIB
+ RELOC/doc/latex/babel/FIXES39
+ RELOC/doc/latex/babel/README
+ RELOC/doc/latex/babel/babel.pdf
+ RELOC/doc/latex/babel/locale.zip

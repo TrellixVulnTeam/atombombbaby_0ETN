@@ -1,0 +1,27 @@
+name amscls
+category Package
+revision 36804
+shortdesc AMS document classes for LaTeX
+relocated 1
+longdesc This bundle contains three AMS classes, amsart (for writing
+longdesc articles for the AMS), amsbook (for books) and amsproc (for
+longdesc proceedings), together with some supporting material. The
+longdesc material is made available as part of the AMS-LaTeX
+longdesc distribution.
+runfiles size=76
+ RELOC/bibtex/bst/amscls/amsalpha.bst
+ RELOC/bibtex/bst/amscls/amsplain.bst
+ RELOC/tex/latex/amscls/amsart.cls
+ RELOC/tex/latex/amscls/amsbook.cls
+ RELOC/tex/latex/amscls/amsbooka.sty
+ RELOC/tex/latex/amscls/amsdtx.cls
+ RELOC/tex/latex/amscls/amsldoc.cls
+ RELOC/tex/latex/amscls/amsmidx.sty
+ RELOC/tex/latex/amscls/amsproc.cls
+ RELOC/tex/latex/amscls/amsthm.sty
+ RELOC/tex/latex/amscls/upref.sty
+catalogue-also amslatex
+catalogue-ctan /macros/latex/required/amscls
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl1.3
+catalogue-topics class maths

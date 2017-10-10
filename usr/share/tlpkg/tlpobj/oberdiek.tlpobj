@@ -1,0 +1,336 @@
+name oberdiek
+category Package
+revision 43610
+shortdesc A bundle of packages submitted by Heiko Oberdiek
+relocated 1
+longdesc The bundle comprises packages to provide: accsupp: better
+longdesc accessibility support for PDF files; aliascnt: 'alias
+longdesc counters'; alphalph: multiple-alphabetic counting
+longdesc (a...z,aa...zz,... -- up to the full extent of a TeX counter);
+longdesc askinclude: replaces \includeonly by an interactive user
+longdesc interface; atbegshi: a modern reimplementation of package
+longdesc everyshi; atenddvi: provides \AtEndDvi command; attachfile2:
+longdesc attach files to PDF files; atveryend: hooks the very end of a
+longdesc document; auxhook: stick stuff at the start of the .aux file;
+longdesc bigintcalc: expandable arithmetic operations with big integers
+longdesc that can exceed TeX's number limits; bitset: defines and
+longdesc implements the data type bit set, a vector of bits; bmpsize:
+longdesc get bitmap size and resolution data; bookmark: alternative
+longdesc bookmark (outline) organization for package hyperref;
+longdesc catchfile: collects the contents of a file and puts it in a
+longdesc macro; centernot: a horizontally-centred \not symbol; chemarr:
+longdesc extensible chemists' reaction arrows; classlist: record
+longdesc information about document class(es) used; colonequals: poor
+longdesc man's mathematical relation symbols; dvipscol: dvips colour
+longdesc stack management; embedfile: embed files in PDF documents;
+longdesc engord: define counter-printing operations producing English
+longdesc ordinals; eolgrab: collect arguments delimited by end of line;
+longdesc epstopdf: conversion to epstopdf on the fly; etexcmds: adds a
+longdesc prefix to eTeX's commands, to avoid conflicts with existing
+longdesc macros; flags: setting and clearing flags in bit fields and
+longdesc converting the bit field into a decimal number; gettitlestring:
+longdesc clean up the string containing the title of a section, etc.;
+longdesc grfext: macros for adding and reordering the list of graphics
+longdesc file extensions recognised by the graphics package; grffile:
+longdesc extend file name processing in the latex-graphics bundle;
+longdesc hosub: build collections of packages; holtxdoc: extra
+longdesc documentation macros; hologo: bookmark-enabled logos; hopatch:
+longdesc safely apply package patches; hycolor: implements the color
+longdesc option stuff that is used by packages hyperref and bookmark;
+longdesc hypbmsec: bookmarks in sectioning commands; hypcap: anjusting
+longdesc anchors of captions; hypdestopt: optimising hyperref's pdfTeX
+longdesc driver destinations; hypdoc: hyper-references in the LaTeX
+longdesc standard doc package; hypgotoe: experimental package for links
+longdesc to embedded files; hyphsubst: substitute hyphenation patterns;
+longdesc ifdraft: switch for option draft; iflang: provides expandable
+longdesc checks for the current language; ifluatex: looks for LuaTeX
+longdesc regardless of its mode and provides the switch \ifluatex;
+longdesc ifpdf: provides the \ifpdf switch; ifvtex: provides the \ifvtex
+longdesc switch; infwarerr: provides a complete set of macros for
+longdesc informations, warnings and error messages with support for
+longdesc plain TeX; inputenx: enhanced handling of input encoding;
+longdesc intcalc: provides expandable arithmetic operations with
+longdesc integers; kvdefinekeys: define key-value keys in the same
+longdesc manner as keyval; kvoptions: use package options in key value
+longdesc format ; kvsetkeys: a variant of the \setkeys command;
+longdesc letltxmacro: Let assignment for LaTeX macros; listingsutf8:
+longdesc (partially) extends the listings package to UTF-8 encoding;
+longdesc ltxcmds: exports some utility macros from the LaTeX kernel into
+longdesc a separate namespace and also provides them for other formats
+longdesc such as plain-TeX; luacolor: implements colour support based on
+longdesc LuaTeX's node attributes; luatex: utilises new and extended
+longdesc features and resources that LuaTeX provides; magicnum: allows
+longdesc to access magic numbers by a hierarchical name system;
+longdesc makerobust: make a command robust; pagegrid: prints a page grid
+longdesc in the background; pagesel: select pages of a document for
+longdesc output; pdfcolfoot: using pdfTeX's color stack for footnotes;
+longdesc pdfcol: macros for setting and maintaining new color stacks;
+longdesc pdfcolmk: pdfTeX COLour MarK -- fake a pdfTeX colour stack
+longdesc using marks (not needed for pdfTeX 1.40.0 and later);
+longdesc pdfcolparallel: fixes colour problems in package parallel;
+longdesc pdfcolparcolumns: fixes colour problems in package parcolumns;
+longdesc pdfcrypt: setting PDF encryption; pdfescape: pdfTeX's escape
+longdesc features using TeX or e-TeX; pdflscape: landscape pages in PDF;
+longdesc pdfrender: control PDF rendering modes; pdftexcmds: provide
+longdesc pdfTeX primitives missing in LuaTeX; picture: dimens for
+longdesc picture macros; pmboxdraw: poor man's box drawing characters;
+longdesc protecteddef: define a command that protected against
+longdesc expansion; refcount: using the numeric values of references;
+longdesc rerunfilecheck: checksum based rerun checks on auxiliary files;
+longdesc resizegather: automatically resize overly large equations;
+longdesc rotchiffre: performs simple rotation cyphers; scrindex:
+longdesc redefines environment 'theindex' of package 'index', if a class
+longdesc from KOMA-Script is loaded; selinput: select the input encoding
+longdesc by specifying pairs of input characters and their glyph names;
+longdesc setouterhbox: set \hbox in outer horizontal mode; settobox:
+longdesc getting box sizes; soulutf8: extends package soul and adds some
+longdesc support for UTF-8; stackrel: extensions of the \stackrel
+longdesc command; stampinclude: selects the files for \include by
+longdesc inspecting the timestamp of the .aux file(s); stringenc:
+longdesc provides \StringEncodingConvert for converting a string between
+longdesc different encodings; tabularht: tabulars with height
+longdesc specification; tabularkv: key value interface for tabular
+longdesc parameters; telprint: print German telephone numbers;
+longdesc thepdfnumber: canonical numbers for use in PDF files and
+longdesc elsewhere; transparent: using a color stack for transparency
+longdesc with pdftex; twoopt: commands with two optional arguments;
+longdesc uniquecounter: provides unlimited unique counter; zref: a
+longdesc proposed new reference system. Each of the packages is
+longdesc represented by two files, a .dtx (documented source) and a PDF
+longdesc file; the .ins file necessary for installation is extracted by
+longdesc running the .dtx file with Plain TeX.
+runfiles size=702
+ RELOC/bibtex/bib/oberdiek/oberdiek-bundle.bib
+ RELOC/bibtex/bib/oberdiek/oberdiek-source.bib
+ RELOC/scripts/oberdiek/luacolor-pre065.lua
+ RELOC/scripts/oberdiek/luacolor.lua
+ RELOC/scripts/oberdiek/magicnum.lua
+ RELOC/scripts/oberdiek/oberdiek.luacolor-pre065.lua
+ RELOC/scripts/oberdiek/oberdiek.luacolor.lua
+ RELOC/scripts/oberdiek/oberdiek.luatex.lua
+ RELOC/scripts/oberdiek/oberdiek.magicnum.lua
+ RELOC/scripts/oberdiek/oberdiek.pdftexcmds.lua
+ RELOC/scripts/oberdiek/pdfatfi.pl
+ RELOC/scripts/oberdiek/pdftexcmds.lua
+ RELOC/tex/generic/oberdiek/alphalph.sty
+ RELOC/tex/generic/oberdiek/atbegshi.sty
+ RELOC/tex/generic/oberdiek/bigintcalc.sty
+ RELOC/tex/generic/oberdiek/bitset.sty
+ RELOC/tex/generic/oberdiek/catchfile.sty
+ RELOC/tex/generic/oberdiek/embedfile.sty
+ RELOC/tex/generic/oberdiek/engord.sty
+ RELOC/tex/generic/oberdiek/eolgrab.sty
+ RELOC/tex/generic/oberdiek/etexcmds.sty
+ RELOC/tex/generic/oberdiek/fibnum.sty
+ RELOC/tex/generic/oberdiek/gettitlestring.sty
+ RELOC/tex/generic/oberdiek/hobsub-generic.sty
+ RELOC/tex/generic/oberdiek/hobsub-hyperref.sty
+ RELOC/tex/generic/oberdiek/hobsub.sty
+ RELOC/tex/generic/oberdiek/hologo.sty
+ RELOC/tex/generic/oberdiek/hyphsubst.sty
+ RELOC/tex/generic/oberdiek/iflang.sty
+ RELOC/tex/generic/oberdiek/ifpdf.sty
+ RELOC/tex/generic/oberdiek/ifvtex.sty
+ RELOC/tex/generic/oberdiek/infwarerr.sty
+ RELOC/tex/generic/oberdiek/intcalc.sty
+ RELOC/tex/generic/oberdiek/kvdefinekeys.sty
+ RELOC/tex/generic/oberdiek/kvsetkeys.sty
+ RELOC/tex/generic/oberdiek/ltxcmds.sty
+ RELOC/tex/generic/oberdiek/luatex-loader.sty
+ RELOC/tex/generic/oberdiek/luatex.sty
+ RELOC/tex/generic/oberdiek/magicnum.sty
+ RELOC/tex/generic/oberdiek/mleftright.sty
+ RELOC/tex/generic/oberdiek/pdfcol.sty
+ RELOC/tex/generic/oberdiek/pdfcrypt.sty
+ RELOC/tex/generic/oberdiek/pdfescape.sty
+ RELOC/tex/generic/oberdiek/pdfrender.sty
+ RELOC/tex/generic/oberdiek/pdftexcmds.sty
+ RELOC/tex/generic/oberdiek/protecteddef.sty
+ RELOC/tex/generic/oberdiek/rotchiffre.sty
+ RELOC/tex/generic/oberdiek/se-ascii-print.def
+ RELOC/tex/generic/oberdiek/se-ascii.def
+ RELOC/tex/generic/oberdiek/se-clean7bit.def
+ RELOC/tex/generic/oberdiek/se-cp1250.def
+ RELOC/tex/generic/oberdiek/se-cp1251.def
+ RELOC/tex/generic/oberdiek/se-cp1252.def
+ RELOC/tex/generic/oberdiek/se-cp1257.def
+ RELOC/tex/generic/oberdiek/se-cp437.def
+ RELOC/tex/generic/oberdiek/se-cp850.def
+ RELOC/tex/generic/oberdiek/se-cp852.def
+ RELOC/tex/generic/oberdiek/se-cp855.def
+ RELOC/tex/generic/oberdiek/se-cp858.def
+ RELOC/tex/generic/oberdiek/se-cp865.def
+ RELOC/tex/generic/oberdiek/se-cp866.def
+ RELOC/tex/generic/oberdiek/se-dec-mcs.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-1.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-10.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-11.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-13.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-14.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-15.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-16.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-2.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-3.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-4.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-5.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-6.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-7.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-8.def
+ RELOC/tex/generic/oberdiek/se-iso-8859-9.def
+ RELOC/tex/generic/oberdiek/se-koi8-r.def
+ RELOC/tex/generic/oberdiek/se-mac-centeuro.def
+ RELOC/tex/generic/oberdiek/se-mac-cyrillic.def
+ RELOC/tex/generic/oberdiek/se-mac-roman.def
+ RELOC/tex/generic/oberdiek/se-nextstep.def
+ RELOC/tex/generic/oberdiek/se-pdfdoc.def
+ RELOC/tex/generic/oberdiek/se-utf16le.def
+ RELOC/tex/generic/oberdiek/se-utf32be.def
+ RELOC/tex/generic/oberdiek/se-utf32le.def
+ RELOC/tex/generic/oberdiek/se-utf8.def
+ RELOC/tex/generic/oberdiek/setouterhbox.sty
+ RELOC/tex/generic/oberdiek/soulutf8.sty
+ RELOC/tex/generic/oberdiek/stringenc.sty
+ RELOC/tex/generic/oberdiek/telprint.sty
+ RELOC/tex/generic/oberdiek/thepdfnumber.sty
+ RELOC/tex/generic/oberdiek/uniquecounter.sty
+ RELOC/tex/latex/oberdiek/accsupp-dvipdfm.def
+ RELOC/tex/latex/oberdiek/accsupp-dvips.def
+ RELOC/tex/latex/oberdiek/accsupp-pdftex.def
+ RELOC/tex/latex/oberdiek/accsupp.sty
+ RELOC/tex/latex/oberdiek/aliascnt.sty
+ RELOC/tex/latex/oberdiek/askinclude.sty
+ RELOC/tex/latex/oberdiek/atenddvi.sty
+ RELOC/tex/latex/oberdiek/atfi-dvipdfmx.def
+ RELOC/tex/latex/oberdiek/atfi-dvips.def
+ RELOC/tex/latex/oberdiek/atfi-pdftex.def
+ RELOC/tex/latex/oberdiek/attachfile2.sty
+ RELOC/tex/latex/oberdiek/atveryend.sty
+ RELOC/tex/latex/oberdiek/auxhook.sty
+ RELOC/tex/latex/oberdiek/bkm-dvipdfm.def
+ RELOC/tex/latex/oberdiek/bkm-dvips.def
+ RELOC/tex/latex/oberdiek/bkm-dvipsone.def
+ RELOC/tex/latex/oberdiek/bkm-pdftex.def
+ RELOC/tex/latex/oberdiek/bkm-textures.def
+ RELOC/tex/latex/oberdiek/bkm-vtex.def
+ RELOC/tex/latex/oberdiek/bmpsize-base.sty
+ RELOC/tex/latex/oberdiek/bmpsize-dvipdfm.def
+ RELOC/tex/latex/oberdiek/bmpsize-dvipdfmx.def
+ RELOC/tex/latex/oberdiek/bmpsize-dvips.def
+ RELOC/tex/latex/oberdiek/bmpsize-test.tex
+ RELOC/tex/latex/oberdiek/bmpsize.sty
+ RELOC/tex/latex/oberdiek/bookmark.sty
+ RELOC/tex/latex/oberdiek/centernot.sty
+ RELOC/tex/latex/oberdiek/chemarr.sty
+ RELOC/tex/latex/oberdiek/classlist.sty
+ RELOC/tex/latex/oberdiek/colonequals.sty
+ RELOC/tex/latex/oberdiek/dtx-attach.sty
+ RELOC/tex/latex/oberdiek/dvipscol.sty
+ RELOC/tex/latex/oberdiek/enparen.sty
+ RELOC/tex/latex/oberdiek/epstopdf-base.sty
+ RELOC/tex/latex/oberdiek/epstopdf.sty
+ RELOC/tex/latex/oberdiek/flags.sty
+ RELOC/tex/latex/oberdiek/grfext.sty
+ RELOC/tex/latex/oberdiek/grffile.sty
+ RELOC/tex/latex/oberdiek/holtxdoc.sty
+ RELOC/tex/latex/oberdiek/hopatch.sty
+ RELOC/tex/latex/oberdiek/hycolor.sty
+ RELOC/tex/latex/oberdiek/hypbmsec.sty
+ RELOC/tex/latex/oberdiek/hypcap.sty
+ RELOC/tex/latex/oberdiek/hypdestopt.sty
+ RELOC/tex/latex/oberdiek/hypdoc.sty
+ RELOC/tex/latex/oberdiek/hypgotoe.sty
+ RELOC/tex/latex/oberdiek/ifdraft.sty
+ RELOC/tex/latex/oberdiek/inputenx.sty
+ RELOC/tex/latex/oberdiek/ix-alias.def
+ RELOC/tex/latex/oberdiek/ix-math.def
+ RELOC/tex/latex/oberdiek/ix-name.def
+ RELOC/tex/latex/oberdiek/ix-slot.def
+ RELOC/tex/latex/oberdiek/ix-uc.def
+ RELOC/tex/latex/oberdiek/ix-utf8enc.dfu
+ RELOC/tex/latex/oberdiek/kvoptions-patch.sty
+ RELOC/tex/latex/oberdiek/kvoptions.sty
+ RELOC/tex/latex/oberdiek/letltxmacro.sty
+ RELOC/tex/latex/oberdiek/listingsutf8.sty
+ RELOC/tex/latex/oberdiek/luacolor.sty
+ RELOC/tex/latex/oberdiek/makerobust.sty
+ RELOC/tex/latex/oberdiek/pagegrid.sty
+ RELOC/tex/latex/oberdiek/pagesel.sty
+ RELOC/tex/latex/oberdiek/pdfcolfoot.sty
+ RELOC/tex/latex/oberdiek/pdfcolmk.sty
+ RELOC/tex/latex/oberdiek/pdfcolparallel.sty
+ RELOC/tex/latex/oberdiek/pdfcolparcolumns.sty
+ RELOC/tex/latex/oberdiek/pdflscape.sty
+ RELOC/tex/latex/oberdiek/picture.sty
+ RELOC/tex/latex/oberdiek/pmboxdraw.sty
+ RELOC/tex/latex/oberdiek/pmboxdrawenc.dfu
+ RELOC/tex/latex/oberdiek/refcount.sty
+ RELOC/tex/latex/oberdiek/rerunfilecheck.sty
+ RELOC/tex/latex/oberdiek/resizegather.sty
+ RELOC/tex/latex/oberdiek/scrindex.sty
+ RELOC/tex/latex/oberdiek/selinput.sty
+ RELOC/tex/latex/oberdiek/settobox.sty
+ RELOC/tex/latex/oberdiek/stackrel.sty
+ RELOC/tex/latex/oberdiek/stampinclude.sty
+ RELOC/tex/latex/oberdiek/tabularht.sty
+ RELOC/tex/latex/oberdiek/tabularkv.sty
+ RELOC/tex/latex/oberdiek/transparent.sty
+ RELOC/tex/latex/oberdiek/twoopt.sty
+ RELOC/tex/latex/oberdiek/x-ascii.def
+ RELOC/tex/latex/oberdiek/x-atarist.def
+ RELOC/tex/latex/oberdiek/x-cp1250.def
+ RELOC/tex/latex/oberdiek/x-cp1251.def
+ RELOC/tex/latex/oberdiek/x-cp1252.def
+ RELOC/tex/latex/oberdiek/x-cp1255.def
+ RELOC/tex/latex/oberdiek/x-cp1257.def
+ RELOC/tex/latex/oberdiek/x-cp437.def
+ RELOC/tex/latex/oberdiek/x-cp850.def
+ RELOC/tex/latex/oberdiek/x-cp852.def
+ RELOC/tex/latex/oberdiek/x-cp855.def
+ RELOC/tex/latex/oberdiek/x-cp858.def
+ RELOC/tex/latex/oberdiek/x-cp865.def
+ RELOC/tex/latex/oberdiek/x-cp866.def
+ RELOC/tex/latex/oberdiek/x-dec-mcs.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-1.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-10.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-13.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-14.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-15.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-16.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-2.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-3.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-4.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-5.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-8.def
+ RELOC/tex/latex/oberdiek/x-iso-8859-9.def
+ RELOC/tex/latex/oberdiek/x-koi8-r.def
+ RELOC/tex/latex/oberdiek/x-mac-centeuro.def
+ RELOC/tex/latex/oberdiek/x-mac-cyrillic.def
+ RELOC/tex/latex/oberdiek/x-mac-roman.def
+ RELOC/tex/latex/oberdiek/x-nextstep.def
+ RELOC/tex/latex/oberdiek/x-verbatim.def
+ RELOC/tex/latex/oberdiek/xcolor-patch.sty
+ RELOC/tex/latex/oberdiek/zref-abspage.sty
+ RELOC/tex/latex/oberdiek/zref-abspos.sty
+ RELOC/tex/latex/oberdiek/zref-base.sty
+ RELOC/tex/latex/oberdiek/zref-counter.sty
+ RELOC/tex/latex/oberdiek/zref-dotfill.sty
+ RELOC/tex/latex/oberdiek/zref-env.sty
+ RELOC/tex/latex/oberdiek/zref-hyperref.sty
+ RELOC/tex/latex/oberdiek/zref-lastpage.sty
+ RELOC/tex/latex/oberdiek/zref-marks.sty
+ RELOC/tex/latex/oberdiek/zref-nextpage.sty
+ RELOC/tex/latex/oberdiek/zref-pageattr.sty
+ RELOC/tex/latex/oberdiek/zref-pagelayout.sty
+ RELOC/tex/latex/oberdiek/zref-perpage.sty
+ RELOC/tex/latex/oberdiek/zref-runs.sty
+ RELOC/tex/latex/oberdiek/zref-savepos.sty
+ RELOC/tex/latex/oberdiek/zref-thepage.sty
+ RELOC/tex/latex/oberdiek/zref-titleref.sty
+ RELOC/tex/latex/oberdiek/zref-totpages.sty
+ RELOC/tex/latex/oberdiek/zref-user.sty
+ RELOC/tex/latex/oberdiek/zref-xr.sty
+ RELOC/tex/latex/oberdiek/zref.sty
+catalogue-ctan /macros/latex/contrib/oberdiek
+catalogue-date 2017-03-19 14:31:51 +0100
+catalogue-license lppl1.3
+catalogue-topics collection

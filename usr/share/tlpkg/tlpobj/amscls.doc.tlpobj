@@ -1,0 +1,21 @@
+name amscls.doc
+category Package
+revision 36804
+shortdesc doc files of amscls
+relocated 1
+docfiles size=333
+ RELOC/doc/latex/amscls/00LICENSE.txt
+ RELOC/doc/latex/amscls/README
+ RELOC/doc/latex/amscls/amsart-template.tex
+ RELOC/doc/latex/amscls/amsbook-template.tex
+ RELOC/doc/latex/amscls/amsbooka.pdf
+ RELOC/doc/latex/amscls/amsclass.pdf
+ RELOC/doc/latex/amscls/amsdtx.pdf
+ RELOC/doc/latex/amscls/amsmidx.pdf
+ RELOC/doc/latex/amscls/amsproc-template.tex
+ RELOC/doc/latex/amscls/amsthdoc.pdf
+ RELOC/doc/latex/amscls/diffs-c.txt
+ RELOC/doc/latex/amscls/instr-l.pdf
+ RELOC/doc/latex/amscls/manifest.txt
+ RELOC/doc/latex/amscls/thmtest.pdf
+ RELOC/doc/latex/amscls/upref.pdf

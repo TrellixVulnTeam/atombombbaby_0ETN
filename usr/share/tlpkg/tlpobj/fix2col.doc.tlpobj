@@ -1,0 +1,8 @@
+name fix2col.doc
+category Package
+revision 38770
+shortdesc doc files of fix2col
+relocated 1
+docfiles size=53
+ RELOC/doc/latex/fix2col/README
+ RELOC/doc/latex/fix2col/fix2col.pdf

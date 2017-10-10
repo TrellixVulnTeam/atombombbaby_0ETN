@@ -1,0 +1,6 @@
+name texconfig.x86_64-cygwin
+category TLCore
+revision 33557
+shortdesc x86_64-cygwin files of texconfig
+binfiles arch=x86_64-cygwin size=1
+ bin/x86_64-cygwin/texconfig

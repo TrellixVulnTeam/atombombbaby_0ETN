@@ -1,0 +1,18 @@
+name kpathsea.x86_64-cygwin
+category TLCore
+revision 43808
+shortdesc x86_64-cygwin files of kpathsea
+binfiles arch=x86_64-cygwin size=48
+ bin/x86_64-cygwin/cygkpathsea-6.dll
+ bin/x86_64-cygwin/kpseaccess.exe
+ bin/x86_64-cygwin/kpsereadlink.exe
+ bin/x86_64-cygwin/kpsestat.exe
+ bin/x86_64-cygwin/kpsewhich.exe
+ bin/x86_64-cygwin/mkocp
+ bin/x86_64-cygwin/mkofm
+ bin/x86_64-cygwin/mktexfmt
+ bin/x86_64-cygwin/mktexlsr
+ bin/x86_64-cygwin/mktexmf
+ bin/x86_64-cygwin/mktexpk
+ bin/x86_64-cygwin/mktextfm
+ bin/x86_64-cygwin/texhash

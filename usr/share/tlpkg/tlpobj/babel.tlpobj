@@ -1,0 +1,82 @@
+name babel
+category Package
+revision 44427
+shortdesc Multilingual support for Plain TeX or LaTeX
+relocated 1
+longdesc The package manages culturally-determined typographical (and
+longdesc other) rules, and hyphenation patterns for a wide range of
+longdesc languages. A document may select a single language to be
+longdesc supported, or it may select several, in which case the document
+longdesc may switch from one language to another in a variety of ways.
+longdesc Babel uses contributed configuration files that provide the
+longdesc detail of what has to be done for each language. Users of XeTeX
+longdesc are advised to use polyglossia rather than Babel.
+runfiles size=89
+ RELOC/makeindex/babel/bbglo.ist
+ RELOC/makeindex/babel/bbind.ist
+ RELOC/tex/generic/babel/UKenglish.sty
+ RELOC/tex/generic/babel/USenglish.sty
+ RELOC/tex/generic/babel/afrikaans.sty
+ RELOC/tex/generic/babel/albanian.sty
+ RELOC/tex/generic/babel/american.sty
+ RELOC/tex/generic/babel/austrian.sty
+ RELOC/tex/generic/babel/babel.def
+ RELOC/tex/generic/babel/babel.sty
+ RELOC/tex/generic/babel/bahasa.sty
+ RELOC/tex/generic/babel/bahasam.sty
+ RELOC/tex/generic/babel/basque.sty
+ RELOC/tex/generic/babel/blplain.tex
+ RELOC/tex/generic/babel/bplain.tex
+ RELOC/tex/generic/babel/breton.sty
+ RELOC/tex/generic/babel/british.sty
+ RELOC/tex/generic/babel/bulgarian.sty
+ RELOC/tex/generic/babel/catalan.sty
+ RELOC/tex/generic/babel/croatian.sty
+ RELOC/tex/generic/babel/czech.sty
+ RELOC/tex/generic/babel/danish.sty
+ RELOC/tex/generic/babel/dutch.sty
+ RELOC/tex/generic/babel/english.sty
+ RELOC/tex/generic/babel/esperanto.sty
+ RELOC/tex/generic/babel/estonian.sty
+ RELOC/tex/generic/babel/finnish.sty
+ RELOC/tex/generic/babel/francais.sty
+ RELOC/tex/generic/babel/galician.sty
+ RELOC/tex/generic/babel/germanb.sty
+ RELOC/tex/generic/babel/greek.sty
+ RELOC/tex/generic/babel/hebrew.sty
+ RELOC/tex/generic/babel/hyphen.cfg
+ RELOC/tex/generic/babel/icelandic.sty
+ RELOC/tex/generic/babel/interlingua.sty
+ RELOC/tex/generic/babel/irish.sty
+ RELOC/tex/generic/babel/italian.sty
+ RELOC/tex/generic/babel/latin.sty
+ RELOC/tex/generic/babel/lsorbian.sty
+ RELOC/tex/generic/babel/luababel.def
+ RELOC/tex/generic/babel/magyar.sty
+ RELOC/tex/generic/babel/naustrian.sty
+ RELOC/tex/generic/babel/ngermanb.sty
+ RELOC/tex/generic/babel/nil.ldf
+ RELOC/tex/generic/babel/norsk.sty
+ RELOC/tex/generic/babel/plain.def
+ RELOC/tex/generic/babel/polish.sty
+ RELOC/tex/generic/babel/portuges.sty
+ RELOC/tex/generic/babel/romanian.sty
+ RELOC/tex/generic/babel/russianb.sty
+ RELOC/tex/generic/babel/samin.sty
+ RELOC/tex/generic/babel/scottish.sty
+ RELOC/tex/generic/babel/serbian.sty
+ RELOC/tex/generic/babel/slovak.sty
+ RELOC/tex/generic/babel/slovene.sty
+ RELOC/tex/generic/babel/spanish.sty
+ RELOC/tex/generic/babel/swedish.sty
+ RELOC/tex/generic/babel/switch.def
+ RELOC/tex/generic/babel/turkish.sty
+ RELOC/tex/generic/babel/ukraineb.sty
+ RELOC/tex/generic/babel/usorbian.sty
+ RELOC/tex/generic/babel/welsh.sty
+ RELOC/tex/generic/babel/xebabel.def
+catalogue-ctan /macros/latex/required/babel/base
+catalogue-date 2017-05-19 18:55:38 +0200
+catalogue-license lppl1.3
+catalogue-topics multilingual
+catalogue-version 3.10

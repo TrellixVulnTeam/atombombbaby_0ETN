@@ -1,0 +1,7 @@
+name xdvi.x86_64-cygwin
+category TLCore
+revision 43808
+shortdesc x86_64-cygwin files of xdvi
+binfiles arch=x86_64-cygwin size=283
+ bin/x86_64-cygwin/xdvi
+ bin/x86_64-cygwin/xdvi-xaw.exe

@@ -1,0 +1,34 @@
+name unicode-data
+category Package
+revision 41521
+shortdesc Unicode data and loaders for TeX
+relocated 1
+longdesc This bundle provides generic access to Unicode Consortium data
+longdesc for TeX use. It contains a set of text files provided by the
+longdesc Unicode Consortium which are currently all from Unicode 8.0.0,
+longdesc with the exception of MathClass.txt which is not currently part
+longdesc of the Unicode Character Database. Accompanying these source
+longdesc data are generic TeX loader files allowing this data to be used
+longdesc as part of TeX runs, in particular in building format files.
+longdesc Currently there are two loader files: one for general character
+longdesc set up and one for initialising XeTeX character classes as has
+longdesc been carried out to date by unicode-letters.tex. The source
+longdesc data are distributed in accordance with the license stipulated
+longdesc by the Unicode Consortium. The bundle as a whole is co-
+longdesc ordinated by the LaTeX3 Project as a general resource for TeX
+longdesc users.
+runfiles size=542
+ RELOC/tex/generic/unicode-data/CaseFolding.txt
+ RELOC/tex/generic/unicode-data/EastAsianWidth.txt
+ RELOC/tex/generic/unicode-data/LineBreak.txt
+ RELOC/tex/generic/unicode-data/MathClass.txt
+ RELOC/tex/generic/unicode-data/SpecialCasing.txt
+ RELOC/tex/generic/unicode-data/UnicodeData.txt
+ RELOC/tex/generic/unicode-data/load-unicode-data.tex
+ RELOC/tex/generic/unicode-data/load-unicode-math-classes.tex
+ RELOC/tex/generic/unicode-data/load-unicode-xetex-classes.tex
+catalogue-ctan /macros/generic/unicode-data
+catalogue-date 2016-10-08 11:59:31 +0200
+catalogue-license lppl1.3
+catalogue-topics latex3 unicode
+catalogue-version 1.5

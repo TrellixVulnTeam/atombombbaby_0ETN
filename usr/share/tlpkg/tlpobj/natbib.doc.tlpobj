@@ -1,0 +1,12 @@
+name natbib.doc
+category Package
+revision 20668
+shortdesc doc files of natbib
+relocated 1
+docfiles size=123
+ RELOC/doc/latex/natbib/README.1st
+ RELOC/doc/latex/natbib/README.v831b
+ RELOC/doc/latex/natbib/natbib.ltx
+ RELOC/doc/latex/natbib/natbib.pdf
+ RELOC/doc/latex/natbib/natnotes.pdf
+ RELOC/doc/latex/natbib/natnotes.tex
