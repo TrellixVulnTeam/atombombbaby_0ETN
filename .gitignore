@@ -3,3 +3,5 @@ setup.log.full
 *stackdump
 tmp/*
 dist/*
+!home/atombombbaby/.mintty-colors-solarized
+!home/atombombbaby/.oh-my-zsh
