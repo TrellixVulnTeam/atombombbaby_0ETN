@@ -1,0 +1,6 @@
+[submodule "home/atombombbaby/.oh-my-zsh"]
+	path = home/atombombbaby/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "home/atombombbaby/.mintty-colors-solarized"]
+	path = home/atombombbaby/.mintty-colors-solarized
+	url = https://github.com/mavnn/mintty-colors-solarized.git
