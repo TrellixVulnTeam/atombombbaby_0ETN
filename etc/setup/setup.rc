@@ -1,5 +1,5 @@
 last-cache
-	D:\atombombbaby
+	C:\Users\bohananj\atombombbaby\dist
 mirrors-lst
 	http://cygwin.mirror.constant.com/;cygwin.mirror.constant.com;United States;New Jersey
 	http://cygwin.mirrors.hoobly.com/;cygwin.mirrors.hoobly.com;United States;Pennsylvania
@@ -14,7 +14,6 @@ mirrors-lst
 	http://mirror.clarkson.edu/cygwin/;mirror.clarkson.edu;United States;New York
 	http://mirror.rit.edu/cygwin/;mirror.rit.edu;United States;New York
 	http://mirror.cs.vt.edu/pub/cygwin/cygwin/;mirror.cs.vt.edu;United States;Virginia
-	http://ftp.daum.net/cygwin/;ftp.daum.net;Asia;Korea
 	ftp://mirrors.netix.net/cygwin/;mirrors.netix.net;Europe;Bulgaria
 	http://mirrors.netix.net/cygwin/;mirrors.netix.net;Europe;Bulgaria
 	ftp://mirror.internode.on.net/pub/cygwin/;mirror.internode.on.net;Australasia;Australia
@@ -111,6 +110,6 @@ mirrors-lst
 last-mirror
 	http://cygwin.mirror.constant.com/
 net-method
-	Direct
+	IE
 last-action
 	Download,Install
